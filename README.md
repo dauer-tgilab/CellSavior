@@ -8,7 +8,7 @@
 
 <p align="center">
 
-  <b>A tool for cell calling from target-based single-cell DNA sequencing data</b>
+  <b>A tool for cell calling from targeted single-cell DNA sequencing data</b>
 
 </p>
 
