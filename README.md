@@ -1,5 +1,5 @@
 # CellSavior
-<img width="300" height="300" alt="Image" src="https://github.com/user-attachments/assets/661b9476-b557-4bb8-9a3e-bb2d82969218" />
+<img width="415" height="358" alt="Image" src="https://github.com/user-attachments/assets/e090d84c-e869-4226-acf3-f123ddb6321f" />
 
 A tool for cell calling from target-based single-cell DNA sequencing data
  
