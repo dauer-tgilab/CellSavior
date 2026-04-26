@@ -1,9 +1,16 @@
 # CellSavior
-<img width="415" height="358" alt="Image" src="https://github.com/user-attachments/assets/e090d84c-e869-4226-acf3-f123ddb6321f" />
 
-A tool for cell calling from target-based single-cell DNA sequencing data
- 
+<p align="center">
 
+  <img src="https://github.com/user-attachments/assets/e090d84c-e869-4226-acf3-f123ddb6321f" width="400"/>
+
+</p>
+
+<p align="center">
+
+  <b>A tool for cell calling from target-based single-cell DNA sequencing data</b>
+
+</p>
 
 ## Install
 
