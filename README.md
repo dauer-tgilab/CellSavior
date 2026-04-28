@@ -1,14 +1,18 @@
-# CellSavior
-
-<p align="center">
-
-  <img src="https://github.com/user-attachments/assets/e090d84c-e869-4226-acf3-f123ddb6321f" width="400"/>
-
-</p>
-
 <div align="center">
-  <b>A tool for cell calling from targeted single-cell DNA sequencing data</b>
+
+<h1>CellSavior</h1>
+
+<img src="https://github.com/user-attachments/assets/e090d84c-e869-4226-acf3-f123ddb6321f" width="450"/>
+
+<br>
+
+<h3><b>A tool for cell calling from targeted single-cell DNA sequencing data</b></h3>
+
 </div>
+<br><br>
+
+
+
 
 ## Install
 
