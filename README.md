@@ -106,6 +106,6 @@ CellSavior does not currently have a pre-print or publication.
 
 
 ## Testing Datasets
-The structure of the input barcode distribution can be found at the link below and used to run CellSavior. 
+The structure of the input barcode distribution file can be found at the link below and used to run CellSavior. 
 However, as this dataset and algorithm are not based on the latest Tapestri version, the results may differ from those obtained with CellSavior optimized for current data; therefore, it is recommended to use this dataset for testing purposes only.
 https://www.missionbio.com/resources/datasets
