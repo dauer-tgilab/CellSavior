@@ -50,16 +50,42 @@ CellSavior is an open-source algorithm for cell calling in targeted single-cell 
 ## Input & Output Format
 
 ### Input
+1. mapped.bam file<br>
+   A mapped BAM file contains sequencing reads aligned to a reference genome, with barcode information stored in the RG tag for each read.
+   
+3. all.barcode.distribution.tsv file
 ```
+barcode  target1  target2  ...  target_n
+barcode_1  depth[1,1]  depth[1,2]  ...  depth[1,n]
+barcode_2  depth[2,1]  depth[2,2]  ...  depth[2,n] 
+...
+barcode_m  depth[m,1]  depth[m,2]  ...  depth[m,n]
 ```
 
 ### Output
+1. cellsavior.bam file
+   
+2. cellsavior.barcode.distribution.tsv file
 ```
+cell_barcode  target1  target2  ...  target_n
+cell_barcode_1  depth[1,1]  depth[1,2]  ...  depth[1,n]
+cell_barcode_2  depth[2,1]  depth[2,2]  ...  depth[2,n] 
+...
+cell_barcode_m  depth[m,1]  depth[m,2]  ...  depth[m,n]
 ```
-
 
 
 ## Requirements
+CellSavior was developed using Python 3.11.
 ```
-
+  hdbscan>=0.8.41
+  matplotlib-base>=3.10.8
+  matplotlib-inline>=0.2.1
+  numba>=0.64.0
+  numpy>=2.4.2
+  pandas>=3.0.1
+  scikit-learn>=1.8.0
+  scipy>=1.17.1
+  seaborn>=0.13.2
+  statsmodels>=0.14.6
 ```
