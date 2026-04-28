@@ -15,6 +15,8 @@ CellSavior is an open-source algorithm for cell calling in targeted single-cell 
 
 
 
+
+
 ## Install
 
 ### Cloning GitHub repository
@@ -95,3 +97,15 @@ CellSavior was developed using Python 3.11.
   seaborn>=0.13.2
   statsmodels>=0.14.6
 ```
+
+
+
+## Citation
+CellSavior does not currently have a pre-print or publication.
+
+
+
+## Testing Datasets
+The structure of the input barcode distribution can be found at the link below and used to run CellSavior. 
+However, as this dataset and algorithm are not based on the latest Tapestri version, the results may differ from those obtained with CellSavior optimized for current data; therefore, it is recommended to use this dataset for testing purposes only.
+https://www.missionbio.com/resources/datasets
