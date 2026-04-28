@@ -9,6 +9,8 @@
 <h3><b>A tool for cell calling from targeted single-cell DNA sequencing data</b></h3>
 
 </div>
+<br>
+CellSavior is an open-source algorithm for cell calling in targeted single-cell DNA sequencing data. It identifies true cellular barcodes from noise using ensemble clustering across multiple distance metrics. The method integrates clustering results with confidence-weighted scoring to improve robustness. CellSavior enhances reproducibility and may recover biologically relevant cell populations missed by existing pipelines.
 <br><br>
 
 
