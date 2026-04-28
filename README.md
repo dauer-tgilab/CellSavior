@@ -15,7 +15,6 @@ CellSavior is an open-source algorithm for cell calling in targeted single-cell 
 
 
 
-
 ## Install
 
 ### Cloning GitHub repository
@@ -24,7 +23,6 @@ CellSavior is an open-source algorithm for cell calling in targeted single-cell 
 > git clone https://github.com/dauer-tgilab/CellSavior.git
 > cd CellSavior
 ```
-
 
 
 
@@ -42,18 +40,24 @@ CellSavior is an open-source algorithm for cell calling in targeted single-cell 
 > --thread ${thread}
 ```
 
+
+
 ### h5 generation
+If single-cell variant calling has been performed, HDF5 file generation is possible. It requires the barcode × variant AF and DP matrices, along with the previously mentioned input files.
+
 ```
+
 ```
 
 
-## Input & Output Format
+
+## Data Format
 
 ### Input
 1. mapped.bam file<br>
    A mapped BAM file contains sequencing reads aligned to a reference genome, with barcode information stored in the RG tag for each read.
    
-3. all.barcode.distribution.tsv file
+2. all.barcode.distribution.tsv file
 ```
 barcode  target1  target2  ...  target_n
 barcode_1  depth[1,1]  depth[1,2]  ...  depth[1,n]
@@ -64,6 +68,7 @@ barcode_m  depth[m,1]  depth[m,2]  ...  depth[m,n]
 
 ### Output
 1. cellsavior.bam file
+   The Cellsavior BAM file contains reads corresponding to barcodes identified as valid cells, preserving alignment information and RG-tagged barcode annotations for downstream analysis.
    
 2. cellsavior.barcode.distribution.tsv file
 ```
@@ -73,6 +78,7 @@ cell_barcode_2  depth[2,1]  depth[2,2]  ...  depth[2,n]
 ...
 cell_barcode_m  depth[m,1]  depth[m,2]  ...  depth[m,n]
 ```
+
 
 
 ## Requirements
