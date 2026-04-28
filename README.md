@@ -6,11 +6,9 @@
 
 </p>
 
-<p align="center">
-
+<div align="center">
   <b>A tool for cell calling from targeted single-cell DNA sequencing data</b>
-
-</p>
+</div>
 
 ## Install
 
