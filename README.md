@@ -44,15 +44,6 @@ CellSavior is an open-source algorithm for cell calling in targeted single-cell 
 
 
 
-### h5 generation
-If single-cell variant calling has been performed, HDF5 file generation is possible. It requires the barcode × variant AF and DP matrices, along with the previously mentioned input files.
-
-```
-
-```
-
-
-
 ## Data Format
 
 ### Input
