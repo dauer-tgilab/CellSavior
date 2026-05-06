@@ -554,10 +554,14 @@ class CellSavior:
         print("    Barcode distribution generated successfully.")
         print("\n\n")
 
-        print("    STEP-10: Generating BAM file...")
-        self.generate_cells_bam(self.cell_barcodes)
-        print("    BAM file generated successfully.")
-        print("\n\n")
+        if self.input_bam is not None and self.output_bam is not None:
+            print("    STEP-10: Generating BAM file...")
+            self.generate_cells_bam(self.cell_barcodes)
+            print("    BAM file generated successfully.")
+            print("\n\n")
+        else:
+            print("    STEP-10: Skipped (no BAM input/output provided).")
+            print("\n\n")
 
 #--------------------------------#
 # Main method
@@ -576,7 +580,7 @@ def parse_args():
     parser.add_argument(
         "--input_bam", 
         type=str, 
-        required=True, 
+        required=False, 
         help="Input BAM file path (required)"
         )
     parser.add_argument(
@@ -588,7 +592,7 @@ def parse_args():
     parser.add_argument(
         "--output_bam", 
         type=str, 
-        required=True, 
+        required=False, 
         help="Output BAM file path (required)"
         )
     parser.add_argument(
